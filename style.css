@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+
+height: 100vh;
+
+background-color: black;
+}
+
+.container {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr  ;
+
+
+    
+}
+
+.header {
+
+        grid-column-start: 1;
+        grid-column-end: 4;
+        background-color: black;
+        color: white;
+        padding: 20px;
+        
+
+        background-image: url(img/poster.png);
+
+        background-position: center;
+        height: 600px;
+
+
+
+    
+      
+
+
+}
+.item {
+
+    display: flex;
+    flex-direction: column;
+     
+    justify-content: center;
+    justify-items: center;
+    justify-content: space-evenly;
+   
+   
+
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;  
+   width: 80%;
+
+}
+
+
+.item-1 {
+
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+   
+    justify-content: space-evenly;
+
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;  
+   
+
+}
+
+
+
+
+
+
+
+img {
+
+   
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto;
+
+}
+
+
+button {
+
+    background-color: #DE314E;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+p {
+
+    text-align: justify;
+    padding:  10px;
+    padding-bottom: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+   
+
+}
+
+
+.p1 {
+
+    text-align: justify;
+    padding:  10px;
+    padding-bottom: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: black;
+   
+
+}
+
+.footer {
+
+    grid-column-start: 1;
+    grid-column-end: 4;
+      
+
+}
+
+
+
+.footer-item {
+    display: flex;
+    flex-wrap: wrap;   
+    flex-direction: row;  
+   justify-content: center;
+   justify-items: center;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color:  #2E2E2E;
+    color: white;
+}
+
+.footer-div {
+
+    padding: 30px;
+    margin: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-div2 {
+
+        padding: 10;
+        margin-top: 10px ;
+
+}
+.smedia  img {
+
+    width: 25px;
+    height: 25px;
+    display: inline;
+    
+}
+
+h2 {
+
+    
+}
+
+span {
+
+    background-color: white;
+    color: black;
+}
+
+
+
+
